@@ -9,7 +9,6 @@ A quickstart overview on Airship with Images! We love fun documentation
 1. [Scheduling a Message](#running)
 1. [Creating a test group](#dependencies-overview)
 1. [Sending a message to an exclusive group](#workflow)
-1. [UX Research](#ux-research)
 
 ## For Developers
 1. [API Overview](#api-overview)
