@@ -3,6 +3,8 @@ A quickstart overview on Airship with Images! Visual step by step with images to
 
 <img align="center" alt="redesign of thumbnails" width="500px" src="https://vectorlogoseek.com/wp-content/uploads/2019/07/urban-airship-inc-vector-logo.png" />
 
+<img align="center" alt="man spilling chili on the ground" width="500px" src="https://media.giphy.com/media/nuhtVdDkeUmZ2/giphy.gif" />
+
 ## Table of Contents
 1. [Create a new message](#development-setup)
 1. [Adding images to a Message](#development-setup)
