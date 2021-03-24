@@ -14,3 +14,65 @@ A quickstart overview on Airship with Images! We love fun documentation
 1. [API Overview](#api-overview)
 1. [Getting Ready for an API](#api-setup)
 3. [API Requests](#api-requests)
+
+
+## GET Schedule
+
+jQuery
+```
+var settings = {
+  "url": "https://go.urbanairship.com/api/schedules",
+  "method": "GET",
+  "timeout": 0,
+  "headers": {
+    "Accept": "{{airshipAccept}}"
+  },
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+```
+
+Javascript Fetch
+```
+var myHeaders = new Headers();
+myHeaders.append("Accept", "application/vnd.urbanairship+json; version=3");
+
+var requestOptions = {
+  method: 'GET',
+  headers: myHeaders,
+  redirect: 'follow'
+};
+
+fetch("https://go.urbanairship.com/api/schedules", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+```
+
+CURL
+```
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'https://go.urbanairship.com/api/schedules',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+  CURLOPT_HTTPHEADER => array(
+    'Accept: application/vnd.urbanairship+json; version=3'
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+```
