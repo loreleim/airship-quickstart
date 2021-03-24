@@ -1,5 +1,5 @@
 # Airship Quickstart
-A quickstart overview on Airship with Images! We love fun documentation
+A quickstart overview on Airship with Images! Visual step by step with images to follow along
 
 <img align="center" alt="redesign of thumbnails" width="500px" src="https://vectorlogoseek.com/wp-content/uploads/2019/07/urban-airship-inc-vector-logo.png" />
 
